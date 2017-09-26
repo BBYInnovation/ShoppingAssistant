@@ -17,3 +17,5 @@ const actionMap = new Map();
 actionMap.set(WELCOME_INTENT, welcomeIntent);
 actionMap.set(PRINTER, buyPrinter);
 app.handleRequest(actionMap);
+
+module.exports=StartIndex;
