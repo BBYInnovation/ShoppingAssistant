@@ -3,6 +3,7 @@
 
 //let ApiAiApp = require('actions-on-google').ApiAiApp;
 const ApiAiApp = require('actions-on-google').ApiAiApp;
+const bodyParser = require('body-parser');
 
 const app = new ApiAiApp({request: request, response: response});
 const WELCOME_INTENT = 'input.welcome';
