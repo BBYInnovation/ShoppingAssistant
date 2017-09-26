@@ -28,6 +28,12 @@ app.post('/helloHttp', function(req, res) {
   }));
 });
 
+app.get('/', function(request, response) {
+	console.log("Inside get");
+  console.log("New deployment method")
+  res.sendStatus(200);
+});
+
 // Start server
 // Webhooks must be available via SSL with a certificate signed by a valid
 // certificate authority.
