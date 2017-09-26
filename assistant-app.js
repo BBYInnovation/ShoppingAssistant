@@ -1372,7 +1372,7 @@ class AssistantApp {
    * @apiai
    * @actionssdk
    */
-  getDeliveryAddress () {
+  /*getDeliveryAddress () {
     debug('getDeliveryAddress');
     const {
       DELIVERY_ADDRESS_VALUE,
@@ -1394,7 +1394,7 @@ class AssistantApp {
     }
     debug('Failed to get order delivery address');
     return null;
-  }
+  }*/
 
   /**
    * Gets transaction decision information. Only use after calling
