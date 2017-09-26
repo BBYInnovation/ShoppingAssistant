@@ -1,6 +1,7 @@
 'use strict';
 
 //let ApiAiApp = require('actions-on-google').ApiAiApp;
+const ApiAiApp = require('actions-on-google').ApiAiApp;
 
 const app = new ApiAiApp({request: request, response: response});
 const WELCOME_INTENT = 'input.welcome';
