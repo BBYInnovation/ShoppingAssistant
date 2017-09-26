@@ -1,0 +1,22 @@
+{
+   "hi":[
+      "text",
+      "Hi"
+   ],
+   "hello":[
+      "text",
+      "Hello"
+   ],
+   "image":[
+      "function",
+      "sendImageMessage"
+   ],
+   "deal of the day":[
+      "function",
+      "sendGenericMessage"
+   ],
+   "demo video":[
+      "function",
+      "sendVideoMessage"
+   ]
+}
