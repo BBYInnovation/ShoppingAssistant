@@ -1734,7 +1734,7 @@ class AssistantApp {
    * @param {Array<string>} targets Argument to find
    * @return {*} The argument
    */
-  findArgument_ (...targets) {
+  /*findArgument_ (...targets) {
     const data = this.requestData();
     if (data && data.inputs) {
       for (const input of data.inputs) {
@@ -1750,7 +1750,7 @@ class AssistantApp {
       }
     }
     return null;
-  }
+  }*/
 
   /**
    * Utility function to detect SSML markup.
