@@ -12,9 +12,8 @@ function welcomeIntent (app) {
 }
 
 function buyPrinter (app) {
-  //const number = app.getArgument(NUMBER_ARGUMENT);
   app.ask('Do you want this for home use or office use?');
-  
+
 }
 
 const actionMap = new Map();
