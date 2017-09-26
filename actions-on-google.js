@@ -20,7 +20,6 @@
  */
 
 'use strict';
-
 const AssistantApp = require('./assistant-app');
 
 module.exports = {
